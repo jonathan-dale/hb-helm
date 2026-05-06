@@ -1,0 +1,8 @@
+helm:
+  parameters:
+    - name: hb-app.image.repo
+      value: docker-hub-repo
+      forcestring: true
+    - name: hb-app.inage.tag
+      value: 123456
+      forcestring: true
