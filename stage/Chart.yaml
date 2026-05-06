@@ -1,0 +1,13 @@
+apiVersion: v2
+name: hb-application
+description: A Helm chart for hb-application
+type: application
+version: 0.0.1
+appVersion: "1.16.0"
+dependencies:
+  - name: hb-secrets
+    alias: hb-secrets
+    repository: file://../charts/secrets/0.0.1/hb-secrets
+  - name: hb-application
+    alias: hb-app
+    repository: file://../charts/app/0.0.1/hb-app
