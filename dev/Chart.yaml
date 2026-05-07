@@ -8,6 +8,8 @@ dependencies:
   - name: hb-secrets
     alias: hb-secrets
     repository: file://../charts/secrets/0.0.1/hb-secrets
+    version: 0.0.1
   - name: hb-application
     alias: hb-app
     repository: file://../charts/app/0.0.1/hb-app
+    version: 0.0.1
